@@ -59,6 +59,7 @@ foreach ($clients as $key => $client){
 
 ↓ УРОК 5 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ IF ELSE SWITCH
 
+
 $a = 7.7;
 $b = 7.7;
 
@@ -83,3 +84,21 @@ switch($a){
     default:
         echo "a doesnt equal one or zero";
 }
+
+
+↓ УРОК 6 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ ОПЕРАТОРЫ
+
+
+$a = true;
+$b = false;
+
+echo '$a and $b = '; var_dump($a and $b);
+echo '$a or $b = '; var_dump($a or $b);
+echo '$a xor $b = '; var_dump($a xor $b);
+echo '$a && $b = '; var_dump($a && $b);
+echo '$a || $b = '; var_dump($a || $b);
+
+
+↓ УРОК 7 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ Функции
+
+
