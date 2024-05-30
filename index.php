@@ -102,3 +102,26 @@ echo '$a || $b = '; var_dump($a || $b);
 ↓ УРОК 7 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ Функции
 
 
+function createMyFunction() {
+    function printHello() {
+        echo "Hello";
+    }
+    echo "Function Created" . PHP_EOL;
+}
+if (function_exists('printHello')){
+    printHello();
+} else {
+    echo "Function is not exist" . PHP_EOL;
+}
+createMyFunction();
+if (function_exists('printHello')){
+    printHello();
+} else {
+    echo "Function is not exist" . PHP_EOL;
+}
+
+$a = 100;
+$b = 2;
+
+$f = fn() => $a + $b;
+echo $f();
