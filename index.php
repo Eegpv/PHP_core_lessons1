@@ -146,4 +146,7 @@ echo $box2 . PHP_EOL;
 
 ↓ УРОК 9 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ функции включений include require
 
-
+<?php $title "Main page!" ?>
+<?php require("somePhpPage.php") ?> // СЮДА ПОДСТАВИТЬСЯ PHP ФАЙЛ С КАКИМ ТО HTML КОДОМ
+    some text here
+<?php include_once("anotherPhpPage.php") ?> // СЮДА ПОДСТАВИТЬСЯ ФАЙЛ ОДИН ЕДИНСТВЕННЫЙ РАЗ
