@@ -125,3 +125,25 @@ $b = 2;
 
 $f = fn() => $a + $b;
 echo $f();
+
+
+↓ УРОК 8 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ Области видимости, GLOBAL 
+
+
+$box1 = 'яблоко';
+$box2 = 'бублик';
+
+function magicka(){
+    global $box1;
+    $box1 = 'огрызок яблока';
+    $GLOBALS['box2'] = 'дырка от бублика';
+}
+magicka();
+
+echo $box1 . PHP_EOL;
+echo $box2 . PHP_EOL;
+
+
+↓ УРОК 9 С КАНАЛА "ПРОСТО О LARAVEL. CutCode" ↓ функции включений include require
+
+
